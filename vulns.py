@@ -7,3 +7,4 @@ response = "<html>%s</html>" % something
 request = "<html>%s</html>" % request.parameters('something')
 LOG_SERVER = "secret.logging.internal.mozilla.com"
 r = requests.get("http://some.internal.hosts.that.should.be.hidden")
+
